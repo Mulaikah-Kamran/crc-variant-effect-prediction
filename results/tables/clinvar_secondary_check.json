@@ -1,0 +1,40 @@
+[
+  {
+    "gene": "TP53",
+    "n_pathogenic_matched": 4,
+    "n_benign_matched": 1,
+    "sufficient_coverage": false
+  },
+  {
+    "gene": "KRAS",
+    "n_pathogenic_matched": 18,
+    "n_benign_matched": 16,
+    "sufficient_coverage": true,
+    "pathogenic_median_score": -7.235903024673462,
+    "benign_median_score": -7.334513902664185
+  },
+  {
+    "gene": "BRAF",
+    "n_pathogenic_matched": 6,
+    "n_benign_matched": 0,
+    "sufficient_coverage": false
+  },
+  {
+    "gene": "PIK3CA",
+    "n_pathogenic_matched": 32,
+    "n_benign_matched": 0,
+    "sufficient_coverage": false
+  },
+  {
+    "gene": "FBXW7",
+    "n_pathogenic_matched": 6,
+    "n_benign_matched": 5,
+    "sufficient_coverage": false
+  },
+  {
+    "gene": "SMAD4",
+    "n_pathogenic_matched": 1,
+    "n_benign_matched": 1,
+    "sufficient_coverage": false
+  }
+]
