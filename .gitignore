@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# scoring checkpoint - runtime state only, not a reproducibility artifact
+# (final data/scored/scored_variants.json is committed; the checkpoint that
+# built it incrementally is not needed once scoring is complete)
+data/scored/_checkpoint.json
+
+.DS_Store
+*.log
+.venv/
+venv/
