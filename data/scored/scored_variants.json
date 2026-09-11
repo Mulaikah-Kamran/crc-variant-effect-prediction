@@ -1,0 +1,5078 @@
+[
+  {
+    "gene": "BRAF",
+    "tier": "B",
+    "uniprot_accession": "P15056",
+    "protein_length": 766,
+    "context_window_applied": false,
+    "protein_position": 597,
+    "wt_residue": "L",
+    "mutant_residue": "V",
+    "variant_notation": "L597V",
+    "sample_ids": [
+      "TCGA-3L-AA1B-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -6.859137058258057,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 766
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 545,
+    "wt_residue": "E",
+    "mutant_residue": "K",
+    "variant_notation": "E545K",
+    "sample_ids": [
+      "TCGA-3L-AA1B-01",
+      "TCGA-5M-AATE-01",
+      "TCGA-A6-5657-01",
+      "TCGA-AA-3660-01",
+      "TCGA-AA-3712-01",
+      "TCGA-AA-3818-01",
+      "TCGA-AA-A01C-01",
+      "TCGA-AA-A02E-01",
+      "TCGA-AA-A02O-01",
+      "TCGA-AA-A02Y-01",
+      "TCGA-AA-A03F-01",
+      "TCGA-AA-A03J-01",
+      "TCGA-AD-6890-01",
+      "TCGA-AY-5543-01",
+      "TCGA-CK-6747-01",
+      "TCGA-CM-4748-01",
+      "TCGA-CM-5860-01",
+      "TCGA-CM-6168-01",
+      "TCGA-CM-6680-01",
+      "TCGA-D5-6529-01",
+      "TCGA-D5-6532-01",
+      "TCGA-D5-6920-01",
+      "TCGA-D5-6931-01",
+      "TCGA-DM-A0X9-01",
+      "TCGA-DM-A0XD-01",
+      "TCGA-DM-A285-01",
+      "TCGA-DM-A28C-01",
+      "TCGA-F4-6809-01",
+      "TCGA-G4-6304-01",
+      "TCGA-G4-6627-01",
+      "TCGA-QG-A5YW-01",
+      "TCGA-T9-A92H-01"
+    ],
+    "recurrence_count": 32,
+    "esm2_score": -3.1376380920410156,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 12,
+    "wt_residue": "G",
+    "mutant_residue": "D",
+    "variant_notation": "G12D",
+    "sample_ids": [
+      "TCGA-4N-A93T-01",
+      "TCGA-5M-AAT4-01",
+      "TCGA-5M-AAT5-01",
+      "TCGA-5M-AAT6-01",
+      "TCGA-A6-2674-01",
+      "TCGA-A6-2684-01",
+      "TCGA-A6-3808-01",
+      "TCGA-AA-3502-01",
+      "TCGA-AA-3511-01",
+      "TCGA-AA-3655-01",
+      "TCGA-AA-3673-01",
+      "TCGA-AA-3675-01",
+      "TCGA-AA-3695-01",
+      "TCGA-AA-3715-01",
+      "TCGA-AA-3818-01",
+      "TCGA-AA-3841-01",
+      "TCGA-AA-3848-01",
+      "TCGA-AA-3851-01",
+      "TCGA-AA-3864-01",
+      "TCGA-AA-3994-01",
+      "TCGA-AA-A01Z-01",
+      "TCGA-AA-A02O-01",
+      "TCGA-AA-A03F-01",
+      "TCGA-AD-A5EK-01",
+      "TCGA-AY-6386-01",
+      "TCGA-AZ-5407-01",
+      "TCGA-CK-4948-01",
+      "TCGA-CK-4950-01",
+      "TCGA-CK-6748-01",
+      "TCGA-CK-6751-01",
+      "TCGA-CM-4748-01",
+      "TCGA-CM-4751-01",
+      "TCGA-CM-5863-01",
+      "TCGA-CM-6674-01",
+      "TCGA-CM-6678-01",
+      "TCGA-D5-6535-01",
+      "TCGA-D5-6541-01",
+      "TCGA-D5-6931-01",
+      "TCGA-D5-6932-01",
+      "TCGA-DM-A282-01",
+      "TCGA-DM-A28A-01",
+      "TCGA-DM-A28K-01",
+      "TCGA-F4-6461-01",
+      "TCGA-F4-6703-01",
+      "TCGA-G4-6320-01",
+      "TCGA-NH-A50U-01",
+      "TCGA-NH-A6GA-01",
+      "TCGA-QL-A97D-01"
+    ],
+    "recurrence_count": 48,
+    "esm2_score": -8.798599243164062,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 273,
+    "wt_residue": "R",
+    "mutant_residue": "H",
+    "variant_notation": "R273H",
+    "sample_ids": [
+      "TCGA-4N-A93T-01",
+      "TCGA-A6-A567-01",
+      "TCGA-AA-3655-01",
+      "TCGA-AA-3660-01",
+      "TCGA-AA-3949-01",
+      "TCGA-AY-6196-01",
+      "TCGA-CM-6163-01",
+      "TCGA-D5-5541-01",
+      "TCGA-D5-6531-01",
+      "TCGA-D5-6926-01",
+      "TCGA-NH-A50V-01",
+      "TCGA-NH-A8F8-01"
+    ],
+    "recurrence_count": 12,
+    "esm2_score": -6.294926166534424,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 12,
+    "wt_residue": "G",
+    "mutant_residue": "V",
+    "variant_notation": "G12V",
+    "sample_ids": [
+      "TCGA-4T-AA8H-01",
+      "TCGA-A6-2681-01",
+      "TCGA-A6-4105-01",
+      "TCGA-A6-5659-01",
+      "TCGA-A6-5662-01",
+      "TCGA-AA-3530-01",
+      "TCGA-AA-3837-01",
+      "TCGA-AA-3844-01",
+      "TCGA-AA-3854-01",
+      "TCGA-AA-A01I-01",
+      "TCGA-AA-A01X-01",
+      "TCGA-AA-A02E-01",
+      "TCGA-AA-A02Y-01",
+      "TCGA-AM-5820-01",
+      "TCGA-AY-A71X-01",
+      "TCGA-AZ-6606-01",
+      "TCGA-CA-5255-01",
+      "TCGA-CA-5796-01",
+      "TCGA-D5-5538-01",
+      "TCGA-D5-5540-01",
+      "TCGA-D5-6538-01",
+      "TCGA-D5-6539-01",
+      "TCGA-DM-A1D0-01",
+      "TCGA-DM-A28E-01",
+      "TCGA-DM-A28M-01",
+      "TCGA-F4-6806-01",
+      "TCGA-F4-6807-01",
+      "TCGA-F4-6854-01",
+      "TCGA-F4-6855-01",
+      "TCGA-G4-6627-01",
+      "TCGA-NH-A50V-01",
+      "TCGA-NH-A6GC-01",
+      "TCGA-NH-A8F8-01",
+      "TCGA-QG-A5YV-01"
+    ],
+    "recurrence_count": 34,
+    "esm2_score": -8.881413459777832,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 69,
+    "wt_residue": "I",
+    "mutant_residue": "N",
+    "variant_notation": "I69N",
+    "sample_ids": [
+      "TCGA-5M-AAT4-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -3.1940345764160156,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 273,
+    "wt_residue": "R",
+    "mutant_residue": "C",
+    "variant_notation": "R273C",
+    "sample_ids": [
+      "TCGA-5M-AAT4-01",
+      "TCGA-5M-AATA-01",
+      "TCGA-A6-6138-01",
+      "TCGA-AA-3844-01",
+      "TCGA-AM-5821-01",
+      "TCGA-AY-4070-01",
+      "TCGA-D5-6540-01",
+      "TCGA-RU-A8FL-01"
+    ],
+    "recurrence_count": 8,
+    "esm2_score": -7.312757968902588,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 689,
+    "wt_residue": "R",
+    "mutant_residue": "W",
+    "variant_notation": "R689W",
+    "sample_ids": [
+      "TCGA-5M-AAT4-01",
+      "TCGA-A6-5657-01",
+      "TCGA-A6-6142-01"
+    ],
+    "recurrence_count": 3,
+    "esm2_score": -7.246071815490723,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 582,
+    "wt_residue": "S",
+    "mutant_residue": "L",
+    "variant_notation": "S582L",
+    "sample_ids": [
+      "TCGA-5M-AAT4-01",
+      "TCGA-AA-3831-01",
+      "TCGA-AA-A01Z-01",
+      "TCGA-D5-6531-01"
+    ],
+    "recurrence_count": 4,
+    "esm2_score": 1.5448224544525146,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 215,
+    "wt_residue": "S",
+    "mutant_residue": "N",
+    "variant_notation": "S215N",
+    "sample_ids": [
+      "TCGA-5M-AAT5-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.885491847991943,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 465,
+    "wt_residue": "R",
+    "mutant_residue": "H",
+    "variant_notation": "R465H",
+    "sample_ids": [
+      "TCGA-5M-AAT5-01",
+      "TCGA-AA-3675-01",
+      "TCGA-AA-3681-01",
+      "TCGA-AA-3852-01",
+      "TCGA-AA-A01R-01",
+      "TCGA-AA-A03F-01",
+      "TCGA-AM-5821-01",
+      "TCGA-NH-A50T-01",
+      "TCGA-NH-A6GB-01"
+    ],
+    "recurrence_count": 9,
+    "esm2_score": -9.842247009277344,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 545,
+    "wt_residue": "E",
+    "mutant_residue": "A",
+    "variant_notation": "E545A",
+    "sample_ids": [
+      "TCGA-5M-AATA-01",
+      "TCGA-AA-3956-01",
+      "TCGA-CA-5255-01"
+    ],
+    "recurrence_count": 3,
+    "esm2_score": -1.455284595489502,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 13,
+    "wt_residue": "G",
+    "mutant_residue": "D",
+    "variant_notation": "G13D",
+    "sample_ids": [
+      "TCGA-5M-AATE-01",
+      "TCGA-A6-4107-01",
+      "TCGA-A6-6138-01",
+      "TCGA-AA-3506-01",
+      "TCGA-AA-3663-01",
+      "TCGA-AA-3680-01",
+      "TCGA-AA-3842-01",
+      "TCGA-AA-3989-01",
+      "TCGA-AA-A00N-01",
+      "TCGA-AA-A01R-01",
+      "TCGA-AD-6548-01",
+      "TCGA-AY-5543-01",
+      "TCGA-AZ-6599-01",
+      "TCGA-AZ-6600-01",
+      "TCGA-CA-6716-01",
+      "TCGA-CM-6168-01",
+      "TCGA-D5-5539-01",
+      "TCGA-D5-6529-01",
+      "TCGA-D5-6532-01",
+      "TCGA-D5-6927-01",
+      "TCGA-DM-A0X9-01",
+      "TCGA-DM-A0XD-01",
+      "TCGA-DM-A1D8-01",
+      "TCGA-DM-A1D9-01",
+      "TCGA-DM-A288-01",
+      "TCGA-G4-6304-01",
+      "TCGA-G4-6320-01",
+      "TCGA-G4-6323-01"
+    ],
+    "recurrence_count": 28,
+    "esm2_score": -7.184606075286865,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 127,
+    "wt_residue": "S",
+    "mutant_residue": "T",
+    "variant_notation": "S127T",
+    "sample_ids": [
+      "TCGA-5M-AATE-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -7.638666152954102,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 108,
+    "wt_residue": "R",
+    "mutant_residue": "H",
+    "variant_notation": "R108H",
+    "sample_ids": [
+      "TCGA-A6-2674-01",
+      "TCGA-CM-6162-01",
+      "TCGA-F4-6807-01"
+    ],
+    "recurrence_count": 3,
+    "esm2_score": -1.1888465881347656,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 505,
+    "wt_residue": "R",
+    "mutant_residue": "G",
+    "variant_notation": "R505G",
+    "sample_ids": [
+      "TCGA-A6-2677-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -9.534286499023438,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 145,
+    "wt_residue": "L",
+    "mutant_residue": "R",
+    "variant_notation": "L145R",
+    "sample_ids": [
+      "TCGA-A6-2681-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -10.2955961227417,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 350,
+    "wt_residue": "D",
+    "mutant_residue": "N",
+    "variant_notation": "D350N",
+    "sample_ids": [
+      "TCGA-A6-2683-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.10539913177490234,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 420,
+    "wt_residue": "C",
+    "mutant_residue": "R",
+    "variant_notation": "C420R",
+    "sample_ids": [
+      "TCGA-A6-2684-01",
+      "TCGA-AA-3673-01",
+      "TCGA-AD-6965-01",
+      "TCGA-AY-A69D-01"
+    ],
+    "recurrence_count": 4,
+    "esm2_score": -2.9022388458251953,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 173,
+    "wt_residue": "V",
+    "mutant_residue": "L",
+    "variant_notation": "V173L",
+    "sample_ids": [
+      "TCGA-A6-2684-01",
+      "TCGA-AD-A5EK-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -5.085834503173828,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 61,
+    "wt_residue": "Q",
+    "mutant_residue": "R",
+    "variant_notation": "Q61R",
+    "sample_ids": [
+      "TCGA-A6-2685-01",
+      "TCGA-A6-5664-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -6.695419788360596,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "BRAF",
+    "tier": "B",
+    "uniprot_accession": "P15056",
+    "protein_length": 766,
+    "context_window_applied": false,
+    "protein_position": 600,
+    "wt_residue": "V",
+    "mutant_residue": "E",
+    "variant_notation": "V600E",
+    "sample_ids": [
+      "TCGA-A6-2686-01",
+      "TCGA-A6-3809-01",
+      "TCGA-A6-5661-01",
+      "TCGA-A6-5665-01",
+      "TCGA-A6-6649-01",
+      "TCGA-A6-6653-01",
+      "TCGA-AA-3492-01",
+      "TCGA-AA-3664-01",
+      "TCGA-AA-3684-01",
+      "TCGA-AA-3713-01",
+      "TCGA-AA-3715-01",
+      "TCGA-AA-3821-01",
+      "TCGA-AA-3833-01",
+      "TCGA-AA-3877-01",
+      "TCGA-AA-3947-01",
+      "TCGA-AA-3949-01",
+      "TCGA-AA-3966-01",
+      "TCGA-AA-A01P-01",
+      "TCGA-AA-A022-01",
+      "TCGA-AA-A02R-01",
+      "TCGA-AD-5900-01",
+      "TCGA-AD-6889-01",
+      "TCGA-AD-A5EJ-01",
+      "TCGA-AM-5821-01",
+      "TCGA-AU-6004-01",
+      "TCGA-AY-6196-01",
+      "TCGA-AZ-4614-01",
+      "TCGA-AZ-4615-01",
+      "TCGA-AZ-6598-01",
+      "TCGA-CK-4951-01",
+      "TCGA-CK-4952-01",
+      "TCGA-CK-6746-01",
+      "TCGA-CM-5861-01",
+      "TCGA-CM-6171-01",
+      "TCGA-D5-6534-01",
+      "TCGA-D5-6540-01",
+      "TCGA-D5-6928-01",
+      "TCGA-D5-6930-01",
+      "TCGA-DM-A1HB-01",
+      "TCGA-F4-6570-01",
+      "TCGA-G4-6299-01",
+      "TCGA-G4-6302-01",
+      "TCGA-G4-6321-01",
+      "TCGA-G4-6586-01",
+      "TCGA-G4-6588-01",
+      "TCGA-G4-6628-01",
+      "TCGA-QG-A5Z2-01"
+    ],
+    "recurrence_count": 47,
+    "esm2_score": -10.011297225952148,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 766
+  },
+  {
+    "gene": "MSLN",
+    "tier": "A",
+    "uniprot_accession": "Q13421",
+    "protein_length": 622,
+    "context_window_applied": false,
+    "protein_position": 143,
+    "wt_residue": "R",
+    "mutant_residue": "H",
+    "variant_notation": "R143H",
+    "sample_ids": [
+      "TCGA-A6-2686-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -3.140552043914795,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 622
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 658,
+    "wt_residue": "R",
+    "mutant_residue": "Q",
+    "variant_notation": "R658Q",
+    "sample_ids": [
+      "TCGA-A6-2686-01",
+      "TCGA-AA-A022-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -2.396550416946411,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 505,
+    "wt_residue": "R",
+    "mutant_residue": "C",
+    "variant_notation": "R505C",
+    "sample_ids": [
+      "TCGA-A6-3807-01",
+      "TCGA-A6-3809-01",
+      "TCGA-D5-6927-01",
+      "TCGA-WS-AB45-01"
+    ],
+    "recurrence_count": 4,
+    "esm2_score": -9.61252498626709,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 1047,
+    "wt_residue": "H",
+    "mutant_residue": "R",
+    "variant_notation": "H1047R",
+    "sample_ids": [
+      "TCGA-A6-3808-01",
+      "TCGA-A6-6780-01",
+      "TCGA-AA-3548-01",
+      "TCGA-AA-3696-01",
+      "TCGA-AA-3715-01",
+      "TCGA-AA-3877-01",
+      "TCGA-AA-3947-01",
+      "TCGA-AD-A5EJ-01",
+      "TCGA-AM-5821-01",
+      "TCGA-AU-6004-01",
+      "TCGA-CA-5255-01",
+      "TCGA-DM-A1HB-01",
+      "TCGA-DM-A28M-01",
+      "TCGA-F4-6855-01",
+      "TCGA-G4-6586-01",
+      "TCGA-QG-A5YX-01"
+    ],
+    "recurrence_count": 16,
+    "esm2_score": -2.514451503753662,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 550,
+    "wt_residue": "P",
+    "mutant_residue": "T",
+    "variant_notation": "P550T",
+    "sample_ids": [
+      "TCGA-A6-3809-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.0009970664978027344,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 248,
+    "wt_residue": "R",
+    "mutant_residue": "W",
+    "variant_notation": "R248W",
+    "sample_ids": [
+      "TCGA-A6-3810-01",
+      "TCGA-AA-3679-01",
+      "TCGA-AA-3966-01",
+      "TCGA-AA-3979-01",
+      "TCGA-CM-6676-01",
+      "TCGA-D5-6533-01",
+      "TCGA-DM-A1HA-01",
+      "TCGA-F4-6805-01",
+      "TCGA-G4-6315-01"
+    ],
+    "recurrence_count": 9,
+    "esm2_score": -12.427838325500488,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 542,
+    "wt_residue": "E",
+    "mutant_residue": "K",
+    "variant_notation": "E542K",
+    "sample_ids": [
+      "TCGA-A6-4105-01",
+      "TCGA-A6-4107-01",
+      "TCGA-AA-3663-01",
+      "TCGA-AA-3812-01",
+      "TCGA-AA-3850-01",
+      "TCGA-AA-3855-01",
+      "TCGA-AD-6899-01",
+      "TCGA-AY-6386-01",
+      "TCGA-CM-6678-01",
+      "TCGA-D5-6541-01",
+      "TCGA-DM-A1D8-01",
+      "TCGA-G4-6293-01",
+      "TCGA-NH-A50T-01"
+    ],
+    "recurrence_count": 13,
+    "esm2_score": -1.7259191274642944,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 179,
+    "wt_residue": "H",
+    "mutant_residue": "R",
+    "variant_notation": "H179R",
+    "sample_ids": [
+      "TCGA-A6-4105-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -9.110468864440918,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 157,
+    "wt_residue": "V",
+    "mutant_residue": "F",
+    "variant_notation": "V157F",
+    "sample_ids": [
+      "TCGA-A6-5656-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -6.063600063323975,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 12,
+    "wt_residue": "G",
+    "mutant_residue": "S",
+    "variant_notation": "G12S",
+    "sample_ids": [
+      "TCGA-A6-5657-01",
+      "TCGA-AA-3814-01",
+      "TCGA-AY-A69D-01",
+      "TCGA-CM-4744-01",
+      "TCGA-DM-A280-01",
+      "TCGA-G4-6294-01",
+      "TCGA-G4-6297-01"
+    ],
+    "recurrence_count": 7,
+    "esm2_score": -6.5856146812438965,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 88,
+    "wt_residue": "R",
+    "mutant_residue": "Q",
+    "variant_notation": "R88Q",
+    "sample_ids": [
+      "TCGA-A6-5659-01",
+      "TCGA-A6-5666-01",
+      "TCGA-AA-3510-01",
+      "TCGA-AA-3837-01",
+      "TCGA-AA-3848-01",
+      "TCGA-AA-3864-01",
+      "TCGA-AA-3977-01",
+      "TCGA-AZ-4315-01",
+      "TCGA-CA-6717-01",
+      "TCGA-CA-6718-01",
+      "TCGA-CM-6162-01",
+      "TCGA-D5-6927-01",
+      "TCGA-G4-6628-01"
+    ],
+    "recurrence_count": 13,
+    "esm2_score": -2.2816967964172363,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 135,
+    "wt_residue": "C",
+    "mutant_residue": "Y",
+    "variant_notation": "C135Y",
+    "sample_ids": [
+      "TCGA-A6-5659-01",
+      "TCGA-CK-4948-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -3.8758068084716797,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 725,
+    "wt_residue": "D",
+    "mutant_residue": "G",
+    "variant_notation": "D725G",
+    "sample_ids": [
+      "TCGA-A6-5660-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.1624901294708252,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 465,
+    "wt_residue": "R",
+    "mutant_residue": "C",
+    "variant_notation": "R465C",
+    "sample_ids": [
+      "TCGA-A6-5661-01",
+      "TCGA-AA-3848-01",
+      "TCGA-D5-6928-01",
+      "TCGA-D5-6931-01",
+      "TCGA-DM-A1HB-01",
+      "TCGA-QG-A5YW-01"
+    ],
+    "recurrence_count": 6,
+    "esm2_score": -10.429536819458008,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 107,
+    "wt_residue": "Y",
+    "mutant_residue": "D",
+    "variant_notation": "Y107D",
+    "sample_ids": [
+      "TCGA-A6-5662-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -4.0804243087768555,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 340,
+    "wt_residue": "K",
+    "mutant_residue": "E",
+    "variant_notation": "K340E",
+    "sample_ids": [
+      "TCGA-A6-5664-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.0814676284790039,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "SLC38A11",
+    "tier": "A",
+    "uniprot_accession": "Q08AI6",
+    "protein_length": 406,
+    "context_window_applied": false,
+    "protein_position": 403,
+    "wt_residue": "S",
+    "mutant_residue": "N",
+    "variant_notation": "S403N",
+    "sample_ids": [
+      "TCGA-A6-5665-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -3.117129325866699,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 406
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 61,
+    "wt_residue": "Q",
+    "mutant_residue": "H",
+    "variant_notation": "Q61H",
+    "sample_ids": [
+      "TCGA-A6-5666-01",
+      "TCGA-DM-A28G-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -5.630672454833984,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 248,
+    "wt_residue": "R",
+    "mutant_residue": "Q",
+    "variant_notation": "R248Q",
+    "sample_ids": [
+      "TCGA-A6-5667-01",
+      "TCGA-A6-6142-01",
+      "TCGA-A6-6651-01",
+      "TCGA-CK-5914-01",
+      "TCGA-CM-4746-01",
+      "TCGA-CM-5341-01",
+      "TCGA-CM-6172-01",
+      "TCGA-DM-A1D4-01",
+      "TCGA-DM-A1D7-01",
+      "TCGA-DM-A1DB-01",
+      "TCGA-F4-6459-01",
+      "TCGA-G4-6317-01",
+      "TCGA-NH-A6GA-01"
+    ],
+    "recurrence_count": 13,
+    "esm2_score": -9.550259590148926,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 272,
+    "wt_residue": "V",
+    "mutant_residue": "L",
+    "variant_notation": "V272L",
+    "sample_ids": [
+      "TCGA-A6-6137-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.5496755838394165,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 175,
+    "wt_residue": "R",
+    "mutant_residue": "C",
+    "variant_notation": "R175C",
+    "sample_ids": [
+      "TCGA-A6-6142-01",
+      "TCGA-AA-A010-01",
+      "TCGA-WS-AB45-01"
+    ],
+    "recurrence_count": 3,
+    "esm2_score": -5.618514060974121,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 274,
+    "wt_residue": "V",
+    "mutant_residue": "D",
+    "variant_notation": "V274D",
+    "sample_ids": [
+      "TCGA-A6-6649-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -8.926468849182129,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 161,
+    "wt_residue": "A",
+    "mutant_residue": "T",
+    "variant_notation": "A161T",
+    "sample_ids": [
+      "TCGA-A6-6652-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -3.818619966506958,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 155,
+    "wt_residue": "A",
+    "mutant_residue": "D",
+    "variant_notation": "A155D",
+    "sample_ids": [
+      "TCGA-A6-6653-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -11.194032669067383,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 13,
+    "wt_residue": "G",
+    "mutant_residue": "C",
+    "variant_notation": "G13C",
+    "sample_ids": [
+      "TCGA-A6-6654-01",
+      "TCGA-NH-A6GB-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -7.107295513153076,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 1025,
+    "wt_residue": "T",
+    "mutant_residue": "A",
+    "variant_notation": "T1025A",
+    "sample_ids": [
+      "TCGA-A6-6781-01",
+      "TCGA-CK-4951-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -0.43033313751220703,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "MSLN",
+    "tier": "A",
+    "uniprot_accession": "Q13421",
+    "protein_length": 622,
+    "context_window_applied": false,
+    "protein_position": 295,
+    "wt_residue": "R",
+    "mutant_residue": "W",
+    "variant_notation": "R295W",
+    "sample_ids": [
+      "TCGA-A6-6781-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -7.9381537437438965,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 622
+  },
+  {
+    "gene": "METTL27",
+    "tier": "A",
+    "uniprot_accession": "Q8N6F8",
+    "protein_length": 245,
+    "context_window_applied": false,
+    "protein_position": 197,
+    "wt_residue": "V",
+    "mutant_residue": "A",
+    "variant_notation": "V197A",
+    "sample_ids": [
+      "TCGA-A6-6781-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 1.5187387466430664,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 245
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 211,
+    "wt_residue": "T",
+    "mutant_residue": "I",
+    "variant_notation": "T211I",
+    "sample_ids": [
+      "TCGA-A6-6782-01",
+      "TCGA-D5-6898-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -3.897336006164551,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 118,
+    "wt_residue": "A",
+    "mutant_residue": "V",
+    "variant_notation": "A118V",
+    "sample_ids": [
+      "TCGA-A6-A565-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.2755904197692871,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 361,
+    "wt_residue": "R",
+    "mutant_residue": "H",
+    "variant_notation": "R361H",
+    "sample_ids": [
+      "TCGA-A6-A565-01",
+      "TCGA-AA-3692-01",
+      "TCGA-AA-3811-01",
+      "TCGA-AD-6899-01",
+      "TCGA-CA-6717-01",
+      "TCGA-CM-6171-01",
+      "TCGA-D5-5538-01",
+      "TCGA-D5-7000-01",
+      "TCGA-G4-6322-01"
+    ],
+    "recurrence_count": 9,
+    "esm2_score": -1.4778387546539307,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 117,
+    "wt_residue": "K",
+    "mutant_residue": "N",
+    "variant_notation": "K117N",
+    "sample_ids": [
+      "TCGA-A6-A566-01",
+      "TCGA-AA-3977-01",
+      "TCGA-CA-6718-01"
+    ],
+    "recurrence_count": 3,
+    "esm2_score": -10.613727569580078,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 365,
+    "wt_residue": "E",
+    "mutant_residue": "K",
+    "variant_notation": "E365K",
+    "sample_ids": [
+      "TCGA-A6-A566-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.8767666816711426,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 12,
+    "wt_residue": "G",
+    "mutant_residue": "C",
+    "variant_notation": "G12C",
+    "sample_ids": [
+      "TCGA-A6-A567-01",
+      "TCGA-AA-3696-01",
+      "TCGA-AA-A02W-01",
+      "TCGA-AA-A03J-01",
+      "TCGA-AY-A54L-01",
+      "TCGA-AZ-6607-01",
+      "TCGA-CM-4747-01",
+      "TCGA-DM-A1D4-01",
+      "TCGA-DM-A1D6-01",
+      "TCGA-DM-A1HA-01"
+    ],
+    "recurrence_count": 10,
+    "esm2_score": -8.412407875061035,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "FBXL16",
+    "tier": "A",
+    "uniprot_accession": "Q8N461",
+    "protein_length": 479,
+    "context_window_applied": false,
+    "protein_position": 108,
+    "wt_residue": "Y",
+    "mutant_residue": "C",
+    "variant_notation": "Y108C",
+    "sample_ids": [
+      "TCGA-A6-A567-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -3.6596519947052,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 479
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 350,
+    "wt_residue": "D",
+    "mutant_residue": "G",
+    "variant_notation": "D350G",
+    "sample_ids": [
+      "TCGA-AA-3489-01",
+      "TCGA-AA-3848-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -0.780663013458252,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 1049,
+    "wt_residue": "G",
+    "mutant_residue": "R",
+    "variant_notation": "G1049R",
+    "sample_ids": [
+      "TCGA-AA-3489-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.900873184204102,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "METTL27",
+    "tier": "A",
+    "uniprot_accession": "Q8N6F8",
+    "protein_length": 245,
+    "context_window_applied": false,
+    "protein_position": 110,
+    "wt_residue": "G",
+    "mutant_residue": "S",
+    "variant_notation": "G110S",
+    "sample_ids": [
+      "TCGA-AA-3492-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -4.793725967407227,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 245
+  },
+  {
+    "gene": "MSLN",
+    "tier": "A",
+    "uniprot_accession": "Q13421",
+    "protein_length": 622,
+    "context_window_applied": false,
+    "protein_position": 191,
+    "wt_residue": "D",
+    "mutant_residue": "N",
+    "variant_notation": "D191N",
+    "sample_ids": [
+      "TCGA-AA-3510-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -6.790487289428711,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 622
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 245,
+    "wt_residue": "G",
+    "mutant_residue": "S",
+    "variant_notation": "G245S",
+    "sample_ids": [
+      "TCGA-AA-3511-01",
+      "TCGA-D5-6538-01",
+      "TCGA-G4-6320-01",
+      "TCGA-T9-A92H-01"
+    ],
+    "recurrence_count": 4,
+    "esm2_score": -7.508734703063965,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 239,
+    "wt_residue": "L",
+    "mutant_residue": "R",
+    "variant_notation": "L239R",
+    "sample_ids": [
+      "TCGA-AA-3522-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.1044065952301025,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 345,
+    "wt_residue": "N",
+    "mutant_residue": "K",
+    "variant_notation": "N345K",
+    "sample_ids": [
+      "TCGA-AA-3527-01",
+      "TCGA-AA-3837-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -0.6490623950958252,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 510,
+    "wt_residue": "G",
+    "mutant_residue": "R",
+    "variant_notation": "G510R",
+    "sample_ids": [
+      "TCGA-AA-3530-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.3299522399902344,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 146,
+    "wt_residue": "A",
+    "mutant_residue": "T",
+    "variant_notation": "A146T",
+    "sample_ids": [
+      "TCGA-AA-3660-01",
+      "TCGA-AA-3681-01",
+      "TCGA-AA-3979-01",
+      "TCGA-AA-3986-01",
+      "TCGA-AD-6964-01",
+      "TCGA-AZ-4315-01",
+      "TCGA-CM-4746-01",
+      "TCGA-CM-5349-01",
+      "TCGA-CM-6166-01",
+      "TCGA-D5-5537-01",
+      "TCGA-F4-6463-01",
+      "TCGA-F4-6856-01",
+      "TCGA-NH-A5IV-01"
+    ],
+    "recurrence_count": 13,
+    "esm2_score": -6.66318416595459,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "IL1RN",
+    "tier": "A",
+    "uniprot_accession": "P18510",
+    "protein_length": 177,
+    "context_window_applied": false,
+    "protein_position": 128,
+    "wt_residue": "S",
+    "mutant_residue": "L",
+    "variant_notation": "S128L",
+    "sample_ids": [
+      "TCGA-AA-3663-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -3.1244008541107178,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 177
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 437,
+    "wt_residue": "V",
+    "mutant_residue": "D",
+    "variant_notation": "V437D",
+    "sample_ids": [
+      "TCGA-AA-3666-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -2.4134302139282227,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 109,
+    "wt_residue": "F",
+    "mutant_residue": "C",
+    "variant_notation": "F109C",
+    "sample_ids": [
+      "TCGA-AA-3666-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -7.114631175994873,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 282,
+    "wt_residue": "R",
+    "mutant_residue": "W",
+    "variant_notation": "R282W",
+    "sample_ids": [
+      "TCGA-AA-3667-01",
+      "TCGA-AD-6899-01",
+      "TCGA-CM-5862-01",
+      "TCGA-CM-5868-01",
+      "TCGA-CM-6677-01",
+      "TCGA-D5-6535-01",
+      "TCGA-DM-A1D6-01",
+      "TCGA-F4-6854-01",
+      "TCGA-G4-6294-01",
+      "TCGA-NH-A6GC-01",
+      "TCGA-QL-A97D-01"
+    ],
+    "recurrence_count": 11,
+    "esm2_score": -7.935574531555176,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 344,
+    "wt_residue": "V",
+    "mutant_residue": "G",
+    "variant_notation": "V344G",
+    "sample_ids": [
+      "TCGA-AA-3675-01",
+      "TCGA-DM-A28A-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -4.533959865570068,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 1047,
+    "wt_residue": "H",
+    "mutant_residue": "Y",
+    "variant_notation": "H1047Y",
+    "sample_ids": [
+      "TCGA-AA-3675-01",
+      "TCGA-CM-4746-01",
+      "TCGA-DM-A28A-01",
+      "TCGA-F4-6569-01"
+    ],
+    "recurrence_count": 4,
+    "esm2_score": 1.3867417573928833,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 244,
+    "wt_residue": "G",
+    "mutant_residue": "D",
+    "variant_notation": "G244D",
+    "sample_ids": [
+      "TCGA-AA-3681-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.171953201293945,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 205,
+    "wt_residue": "Y",
+    "mutant_residue": "C",
+    "variant_notation": "Y205C",
+    "sample_ids": [
+      "TCGA-AA-3685-01",
+      "TCGA-CM-5348-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -7.555329322814941,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 234,
+    "wt_residue": "Y",
+    "mutant_residue": "H",
+    "variant_notation": "Y234H",
+    "sample_ids": [
+      "TCGA-AA-3688-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -7.161186218261719,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 124,
+    "wt_residue": "C",
+    "mutant_residue": "G",
+    "variant_notation": "C124G",
+    "sample_ids": [
+      "TCGA-AA-3693-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.801562786102295,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 278,
+    "wt_residue": "P",
+    "mutant_residue": "A",
+    "variant_notation": "P278A",
+    "sample_ids": [
+      "TCGA-AA-3712-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -6.6386260986328125,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "IL1RN",
+    "tier": "A",
+    "uniprot_accession": "P18510",
+    "protein_length": 177,
+    "context_window_applied": false,
+    "protein_position": 124,
+    "wt_residue": "A",
+    "mutant_residue": "T",
+    "variant_notation": "A124T",
+    "sample_ids": [
+      "TCGA-AA-3713-01",
+      "TCGA-CA-6717-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": 3.0993525981903076,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 177
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 626,
+    "wt_residue": "A",
+    "mutant_residue": "D",
+    "variant_notation": "A626D",
+    "sample_ids": [
+      "TCGA-AA-3713-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -6.382691860198975,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "BRAF",
+    "tier": "B",
+    "uniprot_accession": "P15056",
+    "protein_length": 766,
+    "context_window_applied": false,
+    "protein_position": 205,
+    "wt_residue": "K",
+    "mutant_residue": "Q",
+    "variant_notation": "K205Q",
+    "sample_ids": [
+      "TCGA-AA-3715-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -6.8899030685424805,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 766
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 136,
+    "wt_residue": "V",
+    "mutant_residue": "A",
+    "variant_notation": "V136A",
+    "sample_ids": [
+      "TCGA-AA-3811-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.11525344848632812,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 141,
+    "wt_residue": "C",
+    "mutant_residue": "S",
+    "variant_notation": "C141S",
+    "sample_ids": [
+      "TCGA-AA-3814-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.57737922668457,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "ALDOB",
+    "tier": "A",
+    "uniprot_accession": "P05062",
+    "protein_length": 364,
+    "context_window_applied": false,
+    "protein_position": 315,
+    "wt_residue": "G",
+    "mutant_residue": "A",
+    "variant_notation": "G315A",
+    "sample_ids": [
+      "TCGA-AA-3821-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.643499493598938,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 364
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 496,
+    "wt_residue": "R",
+    "mutant_residue": "H",
+    "variant_notation": "R496H",
+    "sample_ids": [
+      "TCGA-AA-3821-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.1623072624206543,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 1043,
+    "wt_residue": "M",
+    "mutant_residue": "I",
+    "variant_notation": "M1043I",
+    "sample_ids": [
+      "TCGA-AA-3821-01",
+      "TCGA-AA-3977-01",
+      "TCGA-F4-6807-01",
+      "TCGA-QG-A5YV-01"
+    ],
+    "recurrence_count": 4,
+    "esm2_score": 1.0189259052276611,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 1047,
+    "wt_residue": "H",
+    "mutant_residue": "L",
+    "variant_notation": "H1047L",
+    "sample_ids": [
+      "TCGA-AA-3821-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.3156183958053589,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "WNT11",
+    "tier": "A",
+    "uniprot_accession": "O96014",
+    "protein_length": 354,
+    "context_window_applied": false,
+    "protein_position": 315,
+    "wt_residue": "G",
+    "mutant_residue": "R",
+    "variant_notation": "G315R",
+    "sample_ids": [
+      "TCGA-AA-3821-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -9.706104278564453,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 354
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 287,
+    "wt_residue": "E",
+    "mutant_residue": "V",
+    "variant_notation": "E287V",
+    "sample_ids": [
+      "TCGA-AA-3837-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -6.084500312805176,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 286,
+    "wt_residue": "E",
+    "mutant_residue": "K",
+    "variant_notation": "E286K",
+    "sample_ids": [
+      "TCGA-AA-3841-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -7.1062846183776855,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 363,
+    "wt_residue": "C",
+    "mutant_residue": "W",
+    "variant_notation": "C363W",
+    "sample_ids": [
+      "TCGA-AA-3842-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.10107278823852539,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "ALDOB",
+    "tier": "A",
+    "uniprot_accession": "P05062",
+    "protein_length": 364,
+    "context_window_applied": false,
+    "protein_position": 161,
+    "wt_residue": "S",
+    "mutant_residue": "I",
+    "variant_notation": "S161I",
+    "sample_ids": [
+      "TCGA-AA-3845-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.8755431175231934,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 364
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 61,
+    "wt_residue": "Q",
+    "mutant_residue": "K",
+    "variant_notation": "Q61K",
+    "sample_ids": [
+      "TCGA-AA-3845-01",
+      "TCGA-AD-6895-01",
+      "TCGA-D5-7000-01"
+    ],
+    "recurrence_count": 3,
+    "esm2_score": -6.482525825500488,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 533,
+    "wt_residue": "L",
+    "mutant_residue": "R",
+    "variant_notation": "L533R",
+    "sample_ids": [
+      "TCGA-AA-3845-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.4755887985229492,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 192,
+    "wt_residue": "E",
+    "mutant_residue": "A",
+    "variant_notation": "E192A",
+    "sample_ids": [
+      "TCGA-AA-3845-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.6762113571166992,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 476,
+    "wt_residue": "S",
+    "mutant_residue": "R",
+    "variant_notation": "S476R",
+    "sample_ids": [
+      "TCGA-AA-3850-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -14.68543529510498,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 175,
+    "wt_residue": "R",
+    "mutant_residue": "H",
+    "variant_notation": "R175H",
+    "sample_ids": [
+      "TCGA-AA-3851-01",
+      "TCGA-AA-3968-01",
+      "TCGA-AA-A01T-01",
+      "TCGA-AA-A02F-01",
+      "TCGA-AU-3779-01",
+      "TCGA-AY-6197-01",
+      "TCGA-AZ-4681-01",
+      "TCGA-AZ-5407-01",
+      "TCGA-AZ-6606-01",
+      "TCGA-D5-5540-01",
+      "TCGA-D5-6532-01",
+      "TCGA-D5-6541-01",
+      "TCGA-DM-A0XF-01",
+      "TCGA-DM-A1D8-01",
+      "TCGA-DM-A1D9-01",
+      "TCGA-DM-A28H-01",
+      "TCGA-F4-6854-01",
+      "TCGA-G4-6298-01",
+      "TCGA-G4-6306-01",
+      "TCGA-G4-6626-01",
+      "TCGA-QG-A5YV-01"
+    ],
+    "recurrence_count": 21,
+    "esm2_score": -5.974370956420898,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 12,
+    "wt_residue": "G",
+    "mutant_residue": "A",
+    "variant_notation": "G12A",
+    "sample_ids": [
+      "TCGA-AA-3852-01",
+      "TCGA-AD-6901-01",
+      "TCGA-AD-6965-01",
+      "TCGA-AZ-4616-01",
+      "TCGA-CK-4947-01",
+      "TCGA-D5-6531-01",
+      "TCGA-SS-A7HO-01"
+    ],
+    "recurrence_count": 7,
+    "esm2_score": -5.800634384155273,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 81,
+    "wt_residue": "E",
+    "mutant_residue": "K",
+    "variant_notation": "E81K",
+    "sample_ids": [
+      "TCGA-AA-3852-01",
+      "TCGA-D5-5540-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -7.614752769470215,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 106,
+    "wt_residue": "G",
+    "mutant_residue": "R",
+    "variant_notation": "G106R",
+    "sample_ids": [
+      "TCGA-AA-3852-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.24025869369506836,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 545,
+    "wt_residue": "E",
+    "mutant_residue": "Q",
+    "variant_notation": "E545Q",
+    "sample_ids": [
+      "TCGA-AA-3852-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.7690749168395996,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "IL1RN",
+    "tier": "A",
+    "uniprot_accession": "P18510",
+    "protein_length": 177,
+    "context_window_applied": false,
+    "protein_position": 103,
+    "wt_residue": "L",
+    "mutant_residue": "R",
+    "variant_notation": "L103R",
+    "sample_ids": [
+      "TCGA-AA-3864-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -9.485065460205078,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 177
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 327,
+    "wt_residue": "A",
+    "mutant_residue": "V",
+    "variant_notation": "A327V",
+    "sample_ids": [
+      "TCGA-AA-3864-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.3481576442718506,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "WNT11",
+    "tier": "A",
+    "uniprot_accession": "O96014",
+    "protein_length": 354,
+    "context_window_applied": false,
+    "protein_position": 148,
+    "wt_residue": "P",
+    "mutant_residue": "H",
+    "variant_notation": "P148H",
+    "sample_ids": [
+      "TCGA-AA-3864-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -4.255640029907227,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 354
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 364,
+    "wt_residue": "G",
+    "mutant_residue": "R",
+    "variant_notation": "G364R",
+    "sample_ids": [
+      "TCGA-AA-3866-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.235015630722046,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 130,
+    "wt_residue": "L",
+    "mutant_residue": "F",
+    "variant_notation": "L130F",
+    "sample_ids": [
+      "TCGA-AA-3875-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.839817523956299,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "ALDOB",
+    "tier": "A",
+    "uniprot_accession": "P05062",
+    "protein_length": 364,
+    "context_window_applied": false,
+    "protein_position": 306,
+    "wt_residue": "L",
+    "mutant_residue": "M",
+    "variant_notation": "L306M",
+    "sample_ids": [
+      "TCGA-AA-3949-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -4.747992038726807,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 364
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 173,
+    "wt_residue": "V",
+    "mutant_residue": "M",
+    "variant_notation": "V173M",
+    "sample_ids": [
+      "TCGA-AA-3956-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -6.763948917388916,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 249,
+    "wt_residue": "R",
+    "mutant_residue": "G",
+    "variant_notation": "R249G",
+    "sample_ids": [
+      "TCGA-AA-3966-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -7.385531425476074,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 68,
+    "wt_residue": "R",
+    "mutant_residue": "S",
+    "variant_notation": "R68S",
+    "sample_ids": [
+      "TCGA-AA-3975-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -7.287199974060059,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 275,
+    "wt_residue": "C",
+    "mutant_residue": "Y",
+    "variant_notation": "C275Y",
+    "sample_ids": [
+      "TCGA-AA-3975-01",
+      "TCGA-D5-6932-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -8.138192176818848,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 132,
+    "wt_residue": "K",
+    "mutant_residue": "T",
+    "variant_notation": "K132T",
+    "sample_ids": [
+      "TCGA-AA-3977-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -6.099461555480957,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 141,
+    "wt_residue": "C",
+    "mutant_residue": "Y",
+    "variant_notation": "C141Y",
+    "sample_ids": [
+      "TCGA-AA-3982-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.748321533203125,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 39,
+    "wt_residue": "A",
+    "mutant_residue": "T",
+    "variant_notation": "A39T",
+    "sample_ids": [
+      "TCGA-AA-3984-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.2063276767730713,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 134,
+    "wt_residue": "E",
+    "mutant_residue": "K",
+    "variant_notation": "E134K",
+    "sample_ids": [
+      "TCGA-AA-3984-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.52532958984375,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 65,
+    "wt_residue": "G",
+    "mutant_residue": "E",
+    "variant_notation": "G65E",
+    "sample_ids": [
+      "TCGA-AA-3984-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.12366724014282227,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 357,
+    "wt_residue": "R",
+    "mutant_residue": "Q",
+    "variant_notation": "R357Q",
+    "sample_ids": [
+      "TCGA-AA-3984-01",
+      "TCGA-AA-A00N-01",
+      "TCGA-F4-6569-01"
+    ],
+    "recurrence_count": 3,
+    "esm2_score": -3.3713510036468506,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 970,
+    "wt_residue": "E",
+    "mutant_residue": "K",
+    "variant_notation": "E970K",
+    "sample_ids": [
+      "TCGA-AA-3984-01",
+      "TCGA-CA-6717-01",
+      "TCGA-DM-A0X9-01"
+    ],
+    "recurrence_count": 3,
+    "esm2_score": 0.0382533073425293,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 167,
+    "wt_residue": "K",
+    "mutant_residue": "T",
+    "variant_notation": "K167T",
+    "sample_ids": [
+      "TCGA-AA-3984-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 1.2150261402130127,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 14,
+    "wt_residue": "R",
+    "mutant_residue": "Q",
+    "variant_notation": "R14Q",
+    "sample_ids": [
+      "TCGA-AA-3984-01",
+      "TCGA-CA-6717-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -2.557114601135254,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 520,
+    "wt_residue": "D",
+    "mutant_residue": "Y",
+    "variant_notation": "D520Y",
+    "sample_ids": [
+      "TCGA-AA-3984-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -12.466054916381836,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 344,
+    "wt_residue": "V",
+    "mutant_residue": "A",
+    "variant_notation": "V344A",
+    "sample_ids": [
+      "TCGA-AA-A00N-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -3.0207271575927734,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 1021,
+    "wt_residue": "Y",
+    "mutant_residue": "C",
+    "variant_notation": "Y1021C",
+    "sample_ids": [
+      "TCGA-AA-A00N-01",
+      "TCGA-CM-6171-01",
+      "TCGA-NH-A5IV-01"
+    ],
+    "recurrence_count": 3,
+    "esm2_score": -6.874792575836182,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "WNT11",
+    "tier": "A",
+    "uniprot_accession": "O96014",
+    "protein_length": 354,
+    "context_window_applied": false,
+    "protein_position": 29,
+    "wt_residue": "A",
+    "mutant_residue": "V",
+    "variant_notation": "A29V",
+    "sample_ids": [
+      "TCGA-AA-A00N-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -6.216773986816406,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 354
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 777,
+    "wt_residue": "R",
+    "mutant_residue": "M",
+    "variant_notation": "R777M",
+    "sample_ids": [
+      "TCGA-AA-A010-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.022634029388428,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "MSLN",
+    "tier": "A",
+    "uniprot_accession": "Q13421",
+    "protein_length": 622,
+    "context_window_applied": false,
+    "protein_position": 399,
+    "wt_residue": "L",
+    "mutant_residue": "F",
+    "variant_notation": "L399F",
+    "sample_ids": [
+      "TCGA-AA-A010-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -3.841850996017456,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 622
+  },
+  {
+    "gene": "SLC38A11",
+    "tier": "A",
+    "uniprot_accession": "Q08AI6",
+    "protein_length": 406,
+    "context_window_applied": false,
+    "protein_position": 358,
+    "wt_residue": "V",
+    "mutant_residue": "I",
+    "variant_notation": "V358I",
+    "sample_ids": [
+      "TCGA-AA-A010-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.20377683639526367,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 406
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 159,
+    "wt_residue": "A",
+    "mutant_residue": "P",
+    "variant_notation": "A159P",
+    "sample_ids": [
+      "TCGA-AA-A017-01",
+      "TCGA-CM-5864-01",
+      "TCGA-F4-6807-01"
+    ],
+    "recurrence_count": 3,
+    "esm2_score": -7.874067783355713,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 546,
+    "wt_residue": "Q",
+    "mutant_residue": "K",
+    "variant_notation": "Q546K",
+    "sample_ids": [
+      "TCGA-AA-A01I-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.3021831512451172,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "SLC38A11",
+    "tier": "A",
+    "uniprot_accession": "Q08AI6",
+    "protein_length": 406,
+    "context_window_applied": false,
+    "protein_position": 205,
+    "wt_residue": "V",
+    "mutant_residue": "M",
+    "variant_notation": "V205M",
+    "sample_ids": [
+      "TCGA-AA-A01R-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.23801183700561523,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 406
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 278,
+    "wt_residue": "P",
+    "mutant_residue": "R",
+    "variant_notation": "P278R",
+    "sample_ids": [
+      "TCGA-AA-A01S-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -9.971272468566895,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 1052,
+    "wt_residue": "T",
+    "mutant_residue": "K",
+    "variant_notation": "T1052K",
+    "sample_ids": [
+      "TCGA-AA-A01V-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -7.670129776000977,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 520,
+    "wt_residue": "D",
+    "mutant_residue": "N",
+    "variant_notation": "D520N",
+    "sample_ids": [
+      "TCGA-AA-A01Z-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -8.08976936340332,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 505,
+    "wt_residue": "R",
+    "mutant_residue": "H",
+    "variant_notation": "R505H",
+    "sample_ids": [
+      "TCGA-AA-A024-01",
+      "TCGA-DM-A28G-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -8.479218482971191,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 419,
+    "wt_residue": "G",
+    "mutant_residue": "A",
+    "variant_notation": "G419A",
+    "sample_ids": [
+      "TCGA-AA-A02E-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.3397409915924072,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 132,
+    "wt_residue": "K",
+    "mutant_residue": "E",
+    "variant_notation": "K132E",
+    "sample_ids": [
+      "TCGA-AA-A02E-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -8.469254493713379,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 113,
+    "wt_residue": "F",
+    "mutant_residue": "C",
+    "variant_notation": "F113C",
+    "sample_ids": [
+      "TCGA-AA-A02H-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -4.09653902053833,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 324,
+    "wt_residue": "C",
+    "mutant_residue": "R",
+    "variant_notation": "C324R",
+    "sample_ids": [
+      "TCGA-AA-A02O-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.4948515892028809,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 132,
+    "wt_residue": "K",
+    "mutant_residue": "N",
+    "variant_notation": "K132N",
+    "sample_ids": [
+      "TCGA-AA-A03J-01",
+      "TCGA-AZ-6603-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -7.084242820739746,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 38,
+    "wt_residue": "R",
+    "mutant_residue": "C",
+    "variant_notation": "R38C",
+    "sample_ids": [
+      "TCGA-AD-5900-01",
+      "TCGA-F4-6856-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -3.683645248413086,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 216,
+    "wt_residue": "V",
+    "mutant_residue": "G",
+    "variant_notation": "V216G",
+    "sample_ids": [
+      "TCGA-AD-6548-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -10.397761344909668,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 236,
+    "wt_residue": "Y",
+    "mutant_residue": "C",
+    "variant_notation": "Y236C",
+    "sample_ids": [
+      "TCGA-AD-6888-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -2.9544997215270996,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "FBXL16",
+    "tier": "A",
+    "uniprot_accession": "Q8N461",
+    "protein_length": 479,
+    "context_window_applied": false,
+    "protein_position": 320,
+    "wt_residue": "P",
+    "mutant_residue": "R",
+    "variant_notation": "P320R",
+    "sample_ids": [
+      "TCGA-AD-6895-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.8254197835922241,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 479
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 537,
+    "wt_residue": "D",
+    "mutant_residue": "H",
+    "variant_notation": "D537H",
+    "sample_ids": [
+      "TCGA-AD-6899-01",
+      "TCGA-DM-A28H-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -0.5139486789703369,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 199,
+    "wt_residue": "G",
+    "mutant_residue": "V",
+    "variant_notation": "G199V",
+    "sample_ids": [
+      "TCGA-AD-6901-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -4.2079973220825195,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 232,
+    "wt_residue": "I",
+    "mutant_residue": "S",
+    "variant_notation": "I232S",
+    "sample_ids": [
+      "TCGA-AD-6963-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.92237663269043,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 726,
+    "wt_residue": "E",
+    "mutant_residue": "K",
+    "variant_notation": "E726K",
+    "sample_ids": [
+      "TCGA-AD-6964-01",
+      "TCGA-CM-4751-01",
+      "TCGA-F4-6461-01"
+    ],
+    "recurrence_count": 3,
+    "esm2_score": 0.30264925956726074,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 196,
+    "wt_residue": "T",
+    "mutant_residue": "S",
+    "variant_notation": "T196S",
+    "sample_ids": [
+      "TCGA-AD-6964-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.6178220510482788,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 542,
+    "wt_residue": "E",
+    "mutant_residue": "G",
+    "variant_notation": "E542G",
+    "sample_ids": [
+      "TCGA-AD-A5EJ-01",
+      "TCGA-QG-A5YX-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -2.9277992248535156,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "METTL27",
+    "tier": "A",
+    "uniprot_accession": "Q8N6F8",
+    "protein_length": 245,
+    "context_window_applied": false,
+    "protein_position": 236,
+    "wt_residue": "E",
+    "mutant_residue": "G",
+    "variant_notation": "E236G",
+    "sample_ids": [
+      "TCGA-AD-A5EJ-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 1.8315753936767578,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 245
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 224,
+    "wt_residue": "A",
+    "mutant_residue": "S",
+    "variant_notation": "A224S",
+    "sample_ids": [
+      "TCGA-AM-5821-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -2.1398987770080566,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 237,
+    "wt_residue": "M",
+    "mutant_residue": "I",
+    "variant_notation": "M237I",
+    "sample_ids": [
+      "TCGA-AY-4071-01",
+      "TCGA-AZ-4308-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -1.8808600902557373,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "SLC38A11",
+    "tier": "A",
+    "uniprot_accession": "Q08AI6",
+    "protein_length": 406,
+    "context_window_applied": false,
+    "protein_position": 156,
+    "wt_residue": "A",
+    "mutant_residue": "T",
+    "variant_notation": "A156T",
+    "sample_ids": [
+      "TCGA-AY-6197-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -3.035905599594116,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 406
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 653,
+    "wt_residue": "T",
+    "mutant_residue": "M",
+    "variant_notation": "T653M",
+    "sample_ids": [
+      "TCGA-AY-A54L-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -6.348773002624512,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 722,
+    "wt_residue": "E",
+    "mutant_residue": "K",
+    "variant_notation": "E722K",
+    "sample_ids": [
+      "TCGA-AY-A69D-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.4817631244659424,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 1048,
+    "wt_residue": "H",
+    "mutant_residue": "R",
+    "variant_notation": "H1048R",
+    "sample_ids": [
+      "TCGA-AZ-4315-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.8905813694000244,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "MSLN",
+    "tier": "A",
+    "uniprot_accession": "Q13421",
+    "protein_length": 622,
+    "context_window_applied": false,
+    "protein_position": 409,
+    "wt_residue": "P",
+    "mutant_residue": "H",
+    "variant_notation": "P409H",
+    "sample_ids": [
+      "TCGA-AZ-4315-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -2.3986895084381104,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 622
+  },
+  {
+    "gene": "SLC38A11",
+    "tier": "A",
+    "uniprot_accession": "Q08AI6",
+    "protein_length": 406,
+    "context_window_applied": false,
+    "protein_position": 152,
+    "wt_residue": "K",
+    "mutant_residue": "N",
+    "variant_notation": "K152N",
+    "sample_ids": [
+      "TCGA-AZ-4315-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.4127898216247559,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 406
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 162,
+    "wt_residue": "I",
+    "mutant_residue": "N",
+    "variant_notation": "I162N",
+    "sample_ids": [
+      "TCGA-AZ-4323-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -6.713781833648682,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 176,
+    "wt_residue": "C",
+    "mutant_residue": "Y",
+    "variant_notation": "C176Y",
+    "sample_ids": [
+      "TCGA-AZ-4614-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -10.92755126953125,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 419,
+    "wt_residue": "G",
+    "mutant_residue": "V",
+    "variant_notation": "G419V",
+    "sample_ids": [
+      "TCGA-AZ-4616-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.7608058452606201,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 546,
+    "wt_residue": "Q",
+    "mutant_residue": "R",
+    "variant_notation": "Q546R",
+    "sample_ids": [
+      "TCGA-AZ-4616-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.9979104995727539,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 240,
+    "wt_residue": "S",
+    "mutant_residue": "R",
+    "variant_notation": "S240R",
+    "sample_ids": [
+      "TCGA-AZ-4616-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.524808406829834,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 79,
+    "wt_residue": "A",
+    "mutant_residue": "V",
+    "variant_notation": "A79V",
+    "sample_ids": [
+      "TCGA-AZ-5403-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -2.476386785507202,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 117,
+    "wt_residue": "Y",
+    "mutant_residue": "H",
+    "variant_notation": "Y117H",
+    "sample_ids": [
+      "TCGA-AZ-6598-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.043618202209472656,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "WNT11",
+    "tier": "A",
+    "uniprot_accession": "O96014",
+    "protein_length": 354,
+    "context_window_applied": false,
+    "protein_position": 331,
+    "wt_residue": "C",
+    "mutant_residue": "R",
+    "variant_notation": "C331R",
+    "sample_ids": [
+      "TCGA-AZ-6599-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -12.888799667358398,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 354
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 259,
+    "wt_residue": "D",
+    "mutant_residue": "V",
+    "variant_notation": "D259V",
+    "sample_ids": [
+      "TCGA-AZ-6600-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -7.437575340270996,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 155,
+    "wt_residue": "T",
+    "mutant_residue": "I",
+    "variant_notation": "T155I",
+    "sample_ids": [
+      "TCGA-AZ-6605-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -3.9203238487243652,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 272,
+    "wt_residue": "V",
+    "mutant_residue": "M",
+    "variant_notation": "V272M",
+    "sample_ids": [
+      "TCGA-AZ-6607-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -2.5947179794311523,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 351,
+    "wt_residue": "D",
+    "mutant_residue": "G",
+    "variant_notation": "D351G",
+    "sample_ids": [
+      "TCGA-CA-5796-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.30972766876220703,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 127,
+    "wt_residue": "S",
+    "mutant_residue": "F",
+    "variant_notation": "S127F",
+    "sample_ids": [
+      "TCGA-CA-5797-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -7.914112091064453,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 213,
+    "wt_residue": "R",
+    "mutant_residue": "Q",
+    "variant_notation": "R213Q",
+    "sample_ids": [
+      "TCGA-CA-6715-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -4.065277576446533,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "BRAF",
+    "tier": "B",
+    "uniprot_accession": "P15056",
+    "protein_length": 766,
+    "context_window_applied": false,
+    "protein_position": 637,
+    "wt_residue": "S",
+    "mutant_residue": "P",
+    "variant_notation": "S637P",
+    "sample_ids": [
+      "TCGA-CA-6717-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -10.36646842956543,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 766
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 1015,
+    "wt_residue": "S",
+    "mutant_residue": "Y",
+    "variant_notation": "S1015Y",
+    "sample_ids": [
+      "TCGA-CA-6717-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.273963928222656,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 393,
+    "wt_residue": "R",
+    "mutant_residue": "Q",
+    "variant_notation": "R393Q",
+    "sample_ids": [
+      "TCGA-CA-6717-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -3.9883365631103516,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 22,
+    "wt_residue": "Q",
+    "mutant_residue": "K",
+    "variant_notation": "Q22K",
+    "sample_ids": [
+      "TCGA-CA-6718-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -8.333247184753418,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 534,
+    "wt_residue": "Q",
+    "mutant_residue": "P",
+    "variant_notation": "Q534P",
+    "sample_ids": [
+      "TCGA-CA-6718-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.2158184051513672,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 732,
+    "wt_residue": "M",
+    "mutant_residue": "I",
+    "variant_notation": "M732I",
+    "sample_ids": [
+      "TCGA-CA-6718-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.5936427116394043,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 1047,
+    "wt_residue": "H",
+    "mutant_residue": "Q",
+    "variant_notation": "H1047Q",
+    "sample_ids": [
+      "TCGA-CA-6718-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -2.3362154960632324,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 279,
+    "wt_residue": "D",
+    "mutant_residue": "Y",
+    "variant_notation": "D279Y",
+    "sample_ids": [
+      "TCGA-CA-6718-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -9.169294357299805,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 532,
+    "wt_residue": "A",
+    "mutant_residue": "D",
+    "variant_notation": "A532D",
+    "sample_ids": [
+      "TCGA-CK-4950-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.28725409507751465,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "RAC3",
+    "tier": "A",
+    "uniprot_accession": "P60763",
+    "protein_length": 192,
+    "context_window_applied": false,
+    "protein_position": 146,
+    "wt_residue": "A",
+    "mutant_residue": "G",
+    "variant_notation": "A146G",
+    "sample_ids": [
+      "TCGA-CK-4951-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -4.216642379760742,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 192
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 333,
+    "wt_residue": "R",
+    "mutant_residue": "C",
+    "variant_notation": "R333C",
+    "sample_ids": [
+      "TCGA-CK-4951-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -2.267897844314575,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 115,
+    "wt_residue": "C",
+    "mutant_residue": "Y",
+    "variant_notation": "C115Y",
+    "sample_ids": [
+      "TCGA-CK-5916-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.3125495910644531,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "METTL27",
+    "tier": "A",
+    "uniprot_accession": "Q8N6F8",
+    "protein_length": 245,
+    "context_window_applied": false,
+    "protein_position": 5,
+    "wt_residue": "E",
+    "mutant_residue": "D",
+    "variant_notation": "E5D",
+    "sample_ids": [
+      "TCGA-CK-5916-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.6989531517028809,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 245
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 577,
+    "wt_residue": "L",
+    "mutant_residue": "S",
+    "variant_notation": "L577S",
+    "sample_ids": [
+      "TCGA-CK-6746-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -9.463811874389648,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "BRAF",
+    "tier": "B",
+    "uniprot_accession": "P15056",
+    "protein_length": 766,
+    "context_window_applied": false,
+    "protein_position": 594,
+    "wt_residue": "D",
+    "mutant_residue": "N",
+    "variant_notation": "D594N",
+    "sample_ids": [
+      "TCGA-CK-6747-01",
+      "TCGA-DM-A28C-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -9.027566909790039,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 766
+  },
+  {
+    "gene": "MSLN",
+    "tier": "A",
+    "uniprot_accession": "Q13421",
+    "protein_length": 622,
+    "context_window_applied": false,
+    "protein_position": 274,
+    "wt_residue": "R",
+    "mutant_residue": "C",
+    "variant_notation": "R274C",
+    "sample_ids": [
+      "TCGA-CK-6747-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.030829429626465,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 622
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 233,
+    "wt_residue": "G",
+    "mutant_residue": "C",
+    "variant_notation": "G233C",
+    "sample_ids": [
+      "TCGA-CM-4743-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -2.331123113632202,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 542,
+    "wt_residue": "E",
+    "mutant_residue": "A",
+    "variant_notation": "E542A",
+    "sample_ids": [
+      "TCGA-CM-4747-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.7973655462265015,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 239,
+    "wt_residue": "N",
+    "mutant_residue": "S",
+    "variant_notation": "N239S",
+    "sample_ids": [
+      "TCGA-CM-4750-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -2.4752399921417236,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 266,
+    "wt_residue": "G",
+    "mutant_residue": "E",
+    "variant_notation": "G266E",
+    "sample_ids": [
+      "TCGA-CM-4751-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -8.754522323608398,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 13,
+    "wt_residue": "I",
+    "mutant_residue": "T",
+    "variant_notation": "I13T",
+    "sample_ids": [
+      "TCGA-CM-4752-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.5021781921386719,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 266,
+    "wt_residue": "G",
+    "mutant_residue": "V",
+    "variant_notation": "G266V",
+    "sample_ids": [
+      "TCGA-CM-4752-01",
+      "TCGA-CM-6164-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -8.542106628417969,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 158,
+    "wt_residue": "R",
+    "mutant_residue": "H",
+    "variant_notation": "R158H",
+    "sample_ids": [
+      "TCGA-CM-5341-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -6.478166580200195,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "FBXL16",
+    "tier": "A",
+    "uniprot_accession": "Q8N461",
+    "protein_length": 479,
+    "context_window_applied": false,
+    "protein_position": 30,
+    "wt_residue": "L",
+    "mutant_residue": "M",
+    "variant_notation": "L30M",
+    "sample_ids": [
+      "TCGA-CM-5861-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -2.1844849586486816,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 479
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 267,
+    "wt_residue": "R",
+    "mutant_residue": "L",
+    "variant_notation": "R267L",
+    "sample_ids": [
+      "TCGA-CM-5864-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -6.950287818908691,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 436,
+    "wt_residue": "K",
+    "mutant_residue": "N",
+    "variant_notation": "K436N",
+    "sample_ids": [
+      "TCGA-CM-5868-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.9376487731933594,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "ALDOB",
+    "tier": "A",
+    "uniprot_accession": "P05062",
+    "protein_length": 364,
+    "context_window_applied": false,
+    "protein_position": 163,
+    "wt_residue": "A",
+    "mutant_residue": "T",
+    "variant_notation": "A163T",
+    "sample_ids": [
+      "TCGA-CM-6162-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -2.969362258911133,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 364
+  },
+  {
+    "gene": "RAC3",
+    "tier": "A",
+    "uniprot_accession": "P60763",
+    "protein_length": 192,
+    "context_window_applied": false,
+    "protein_position": 191,
+    "wt_residue": "V",
+    "mutant_residue": "I",
+    "variant_notation": "V191I",
+    "sample_ids": [
+      "TCGA-CM-6162-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 2.0102200508117676,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 192
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 34,
+    "wt_residue": "P",
+    "mutant_residue": "L",
+    "variant_notation": "P34L",
+    "sample_ids": [
+      "TCGA-CM-6164-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -10.997986793518066,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 330,
+    "wt_residue": "E",
+    "mutant_residue": "Q",
+    "variant_notation": "E330Q",
+    "sample_ids": [
+      "TCGA-CM-6165-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.46954894065856934,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 267,
+    "wt_residue": "R",
+    "mutant_residue": "W",
+    "variant_notation": "R267W",
+    "sample_ids": [
+      "TCGA-CM-6167-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -7.953455924987793,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "BRAF",
+    "tier": "B",
+    "uniprot_accession": "P15056",
+    "protein_length": 766,
+    "context_window_applied": false,
+    "protein_position": 469,
+    "wt_residue": "G",
+    "mutant_residue": "A",
+    "variant_notation": "G469A",
+    "sample_ids": [
+      "TCGA-CM-6169-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -7.693565368652344,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 766
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 365,
+    "wt_residue": "G",
+    "mutant_residue": "D",
+    "variant_notation": "G365D",
+    "sample_ids": [
+      "TCGA-CM-6170-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.2077444791793823,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 513,
+    "wt_residue": "R",
+    "mutant_residue": "W",
+    "variant_notation": "R513W",
+    "sample_ids": [
+      "TCGA-CM-6677-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.278285026550293,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 355,
+    "wt_residue": "D",
+    "mutant_residue": "G",
+    "variant_notation": "D355G",
+    "sample_ids": [
+      "TCGA-CM-6680-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.017544269561767578,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 214,
+    "wt_residue": "H",
+    "mutant_residue": "R",
+    "variant_notation": "H214R",
+    "sample_ids": [
+      "TCGA-D5-5538-01",
+      "TCGA-D5-6539-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -1.9598098993301392,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 361,
+    "wt_residue": "R",
+    "mutant_residue": "C",
+    "variant_notation": "R361C",
+    "sample_ids": [
+      "TCGA-D5-6532-01",
+      "TCGA-F4-6805-01",
+      "TCGA-G4-6628-01"
+    ],
+    "recurrence_count": 3,
+    "esm2_score": -1.6039249897003174,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "ALDOB",
+    "tier": "A",
+    "uniprot_accession": "P05062",
+    "protein_length": 364,
+    "context_window_applied": false,
+    "protein_position": 195,
+    "wt_residue": "G",
+    "mutant_residue": "E",
+    "variant_notation": "G195E",
+    "sample_ids": [
+      "TCGA-D5-6534-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.955447196960449,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 364
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 12,
+    "wt_residue": "G",
+    "mutant_residue": "R",
+    "variant_notation": "G12R",
+    "sample_ids": [
+      "TCGA-D5-6536-01",
+      "TCGA-D5-6537-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -8.472050666809082,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 213,
+    "wt_residue": "R",
+    "mutant_residue": "L",
+    "variant_notation": "R213L",
+    "sample_ids": [
+      "TCGA-D5-6922-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -4.774658679962158,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 163,
+    "wt_residue": "Y",
+    "mutant_residue": "C",
+    "variant_notation": "Y163C",
+    "sample_ids": [
+      "TCGA-D5-6924-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.337740898132324,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "WNT11",
+    "tier": "A",
+    "uniprot_accession": "O96014",
+    "protein_length": 354,
+    "context_window_applied": false,
+    "protein_position": 250,
+    "wt_residue": "R",
+    "mutant_residue": "Q",
+    "variant_notation": "R250Q",
+    "sample_ids": [
+      "TCGA-D5-6924-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -8.343462944030762,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 354
+  },
+  {
+    "gene": "ALDOB",
+    "tier": "A",
+    "uniprot_accession": "P05062",
+    "protein_length": 364,
+    "context_window_applied": false,
+    "protein_position": 56,
+    "wt_residue": "R",
+    "mutant_residue": "H",
+    "variant_notation": "R56H",
+    "sample_ids": [
+      "TCGA-D5-6928-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -7.196568489074707,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 364
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 337,
+    "wt_residue": "R",
+    "mutant_residue": "L",
+    "variant_notation": "R337L",
+    "sample_ids": [
+      "TCGA-D5-6929-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -2.193244695663452,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 181,
+    "wt_residue": "R",
+    "mutant_residue": "H",
+    "variant_notation": "R181H",
+    "sample_ids": [
+      "TCGA-D5-6931-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.9221608638763428,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 224,
+    "wt_residue": "E",
+    "mutant_residue": "D",
+    "variant_notation": "E224D",
+    "sample_ids": [
+      "TCGA-DM-A0XD-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.8956198692321777,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 438,
+    "wt_residue": "S",
+    "mutant_residue": "F",
+    "variant_notation": "S438F",
+    "sample_ids": [
+      "TCGA-DM-A0XD-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -11.191459655761719,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 176,
+    "wt_residue": "C",
+    "mutant_residue": "F",
+    "variant_notation": "C176F",
+    "sample_ids": [
+      "TCGA-DM-A0XF-01",
+      "TCGA-SS-A7HO-01"
+    ],
+    "recurrence_count": 2,
+    "esm2_score": -12.235783576965332,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 278,
+    "wt_residue": "P",
+    "mutant_residue": "T",
+    "variant_notation": "P278T",
+    "sample_ids": [
+      "TCGA-DM-A1D6-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -8.866868019104004,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "BRAF",
+    "tier": "B",
+    "uniprot_accession": "P15056",
+    "protein_length": 766,
+    "context_window_applied": false,
+    "protein_position": 466,
+    "wt_residue": "G",
+    "mutant_residue": "V",
+    "variant_notation": "G466V",
+    "sample_ids": [
+      "TCGA-DM-A1D7-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -11.854694366455078,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 766
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 146,
+    "wt_residue": "A",
+    "mutant_residue": "V",
+    "variant_notation": "A146V",
+    "sample_ids": [
+      "TCGA-DM-A1D7-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -7.484421730041504,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 365,
+    "wt_residue": "G",
+    "mutant_residue": "R",
+    "variant_notation": "G365R",
+    "sample_ids": [
+      "TCGA-DM-A1D8-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.8821755647659302,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "BRAF",
+    "tier": "B",
+    "uniprot_accession": "P15056",
+    "protein_length": 766,
+    "context_window_applied": false,
+    "protein_position": 581,
+    "wt_residue": "N",
+    "mutant_residue": "I",
+    "variant_notation": "N581I",
+    "sample_ids": [
+      "TCGA-DM-A1DA-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -12.654165267944336,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 766
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 190,
+    "wt_residue": "P",
+    "mutant_residue": "L",
+    "variant_notation": "P190L",
+    "sample_ids": [
+      "TCGA-DM-A1DA-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -2.4891438484191895,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 106,
+    "wt_residue": "G",
+    "mutant_residue": "V",
+    "variant_notation": "G106V",
+    "sample_ids": [
+      "TCGA-DM-A280-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.07232522964477539,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 19,
+    "wt_residue": "L",
+    "mutant_residue": "F",
+    "variant_notation": "L19F",
+    "sample_ids": [
+      "TCGA-DM-A285-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -6.7099809646606445,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 352,
+    "wt_residue": "G",
+    "mutant_residue": "R",
+    "variant_notation": "G352R",
+    "sample_ids": [
+      "TCGA-DM-A285-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.052953481674194336,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 93,
+    "wt_residue": "R",
+    "mutant_residue": "P",
+    "variant_notation": "R93P",
+    "sample_ids": [
+      "TCGA-DM-A288-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.9097747802734375,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 133,
+    "wt_residue": "M",
+    "mutant_residue": "R",
+    "variant_notation": "M133R",
+    "sample_ids": [
+      "TCGA-DM-A288-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -4.714193344116211,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 285,
+    "wt_residue": "E",
+    "mutant_residue": "K",
+    "variant_notation": "E285K",
+    "sample_ids": [
+      "TCGA-DM-A28E-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -6.7811431884765625,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 220,
+    "wt_residue": "Y",
+    "mutant_residue": "C",
+    "variant_notation": "Y220C",
+    "sample_ids": [
+      "TCGA-DM-A28F-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -3.8001978397369385,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 337,
+    "wt_residue": "R",
+    "mutant_residue": "C",
+    "variant_notation": "R337C",
+    "sample_ids": [
+      "TCGA-F4-6460-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -4.342632293701172,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 386,
+    "wt_residue": "G",
+    "mutant_residue": "S",
+    "variant_notation": "G386S",
+    "sample_ids": [
+      "TCGA-F4-6569-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.3373093605041504,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 609,
+    "wt_residue": "P",
+    "mutant_residue": "H",
+    "variant_notation": "P609H",
+    "sample_ids": [
+      "TCGA-F4-6570-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.795957326889038,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "WNT11",
+    "tier": "A",
+    "uniprot_accession": "O96014",
+    "protein_length": 354,
+    "context_window_applied": false,
+    "protein_position": 240,
+    "wt_residue": "R",
+    "mutant_residue": "Q",
+    "variant_notation": "R240Q",
+    "sample_ids": [
+      "TCGA-F4-6570-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.494076728820801,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 354
+  },
+  {
+    "gene": "SLC38A11",
+    "tier": "A",
+    "uniprot_accession": "Q08AI6",
+    "protein_length": 406,
+    "context_window_applied": false,
+    "protein_position": 293,
+    "wt_residue": "T",
+    "mutant_residue": "M",
+    "variant_notation": "T293M",
+    "sample_ids": [
+      "TCGA-F4-6570-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 2.4484944343566895,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 406
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 61,
+    "wt_residue": "Q",
+    "mutant_residue": "P",
+    "variant_notation": "Q61P",
+    "sample_ids": [
+      "TCGA-F4-6805-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -6.949407577514648,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "uniprot_accession": "P01116",
+    "protein_length": 189,
+    "context_window_applied": false,
+    "protein_position": 71,
+    "wt_residue": "Y",
+    "mutant_residue": "C",
+    "variant_notation": "Y71C",
+    "sample_ids": [
+      "TCGA-F4-6805-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -9.623588562011719,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 189
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 1007,
+    "wt_residue": "G",
+    "mutant_residue": "R",
+    "variant_notation": "G1007R",
+    "sample_ids": [
+      "TCGA-F4-6805-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -3.890289545059204,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 132,
+    "wt_residue": "K",
+    "mutant_residue": "R",
+    "variant_notation": "K132R",
+    "sample_ids": [
+      "TCGA-F4-6809-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -1.5738525390625,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "IL1RN",
+    "tier": "A",
+    "uniprot_accession": "P18510",
+    "protein_length": 177,
+    "context_window_applied": false,
+    "protein_position": 127,
+    "wt_residue": "R",
+    "mutant_residue": "H",
+    "variant_notation": "R127H",
+    "sample_ids": [
+      "TCGA-F4-6854-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -3.4884140491485596,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 177
+  },
+  {
+    "gene": "RAC3",
+    "tier": "A",
+    "uniprot_accession": "P60763",
+    "protein_length": 192,
+    "context_window_applied": false,
+    "protein_position": 95,
+    "wt_residue": "A",
+    "mutant_residue": "V",
+    "variant_notation": "A95V",
+    "sample_ids": [
+      "TCGA-F4-6856-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.8669545650482178,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 192
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 479,
+    "wt_residue": "R",
+    "mutant_residue": "G",
+    "variant_notation": "R479G",
+    "sample_ids": [
+      "TCGA-G4-6293-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -8.910745620727539,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 658,
+    "wt_residue": "L",
+    "mutant_residue": "F",
+    "variant_notation": "L658F",
+    "sample_ids": [
+      "TCGA-G4-6295-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.099094867706299,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "MSLN",
+    "tier": "A",
+    "uniprot_accession": "Q13421",
+    "protein_length": 622,
+    "context_window_applied": false,
+    "protein_position": 451,
+    "wt_residue": "S",
+    "mutant_residue": "Y",
+    "variant_notation": "S451Y",
+    "sample_ids": [
+      "TCGA-G4-6295-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.158918380737305,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 622
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 93,
+    "wt_residue": "R",
+    "mutant_residue": "W",
+    "variant_notation": "R93W",
+    "sample_ids": [
+      "TCGA-G4-6297-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -5.694670677185059,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 143,
+    "wt_residue": "V",
+    "mutant_residue": "M",
+    "variant_notation": "V143M",
+    "sample_ids": [
+      "TCGA-G4-6297-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -2.541658878326416,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 267,
+    "wt_residue": "R",
+    "mutant_residue": "Q",
+    "variant_notation": "R267Q",
+    "sample_ids": [
+      "TCGA-G4-6302-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -3.404731512069702,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "uniprot_accession": "Q969H0",
+    "protein_length": 707,
+    "context_window_applied": false,
+    "protein_position": 536,
+    "wt_residue": "T",
+    "mutant_residue": "P",
+    "variant_notation": "T536P",
+    "sample_ids": [
+      "TCGA-G4-6302-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -8.965352058410645,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 707
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "uniprot_accession": "Q13485",
+    "protein_length": 552,
+    "context_window_applied": false,
+    "protein_position": 441,
+    "wt_residue": "R",
+    "mutant_residue": "C",
+    "variant_notation": "R441C",
+    "sample_ids": [
+      "TCGA-G4-6304-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -2.381950855255127,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 552
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 259,
+    "wt_residue": "D",
+    "mutant_residue": "Y",
+    "variant_notation": "D259Y",
+    "sample_ids": [
+      "TCGA-G4-6307-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -9.65781021118164,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 111,
+    "wt_residue": "K",
+    "mutant_residue": "E",
+    "variant_notation": "K111E",
+    "sample_ids": [
+      "TCGA-G4-6311-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 0.9758609533309937,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "ALDOB",
+    "tier": "A",
+    "uniprot_accession": "P05062",
+    "protein_length": 364,
+    "context_window_applied": false,
+    "protein_position": 90,
+    "wt_residue": "Q",
+    "mutant_residue": "H",
+    "variant_notation": "Q90H",
+    "sample_ids": [
+      "TCGA-G4-6586-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -2.1704139709472656,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 364
+  },
+  {
+    "gene": "ALDOB",
+    "tier": "A",
+    "uniprot_accession": "P05062",
+    "protein_length": 364,
+    "context_window_applied": false,
+    "protein_position": 239,
+    "wt_residue": "A",
+    "mutant_residue": "S",
+    "variant_notation": "A239S",
+    "sample_ids": [
+      "TCGA-G4-6628-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 1.0236248970031738,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 364
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "uniprot_accession": "P42336",
+    "protein_length": 1068,
+    "context_window_applied": true,
+    "protein_position": 104,
+    "wt_residue": "P",
+    "mutant_residue": "R",
+    "variant_notation": "P104R",
+    "sample_ids": [
+      "TCGA-NH-A50T-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 4.337991714477539,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 1023
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "uniprot_accession": "P04637",
+    "protein_length": 393,
+    "context_window_applied": false,
+    "protein_position": 236,
+    "wt_residue": "Y",
+    "mutant_residue": "H",
+    "variant_notation": "Y236H",
+    "sample_ids": [
+      "TCGA-QG-A5YX-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -4.6366047859191895,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 393
+  },
+  {
+    "gene": "MSLN",
+    "tier": "A",
+    "uniprot_accession": "Q13421",
+    "protein_length": 622,
+    "context_window_applied": false,
+    "protein_position": 314,
+    "wt_residue": "S",
+    "mutant_residue": "N",
+    "variant_notation": "S314N",
+    "sample_ids": [
+      "TCGA-WS-AB45-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": 2.54689884185791,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 622
+  },
+  {
+    "gene": "MSLN",
+    "tier": "A",
+    "uniprot_accession": "Q13421",
+    "protein_length": 622,
+    "context_window_applied": false,
+    "protein_position": 173,
+    "wt_residue": "R",
+    "mutant_residue": "Q",
+    "variant_notation": "R173Q",
+    "sample_ids": [
+      "TCGA-WS-AB45-01"
+    ],
+    "recurrence_count": 1,
+    "esm2_score": -0.376417875289917,
+    "esm2_model": "facebook/esm2_t33_650M_UR50D",
+    "scored_sequence_length": 622
+  }
+]
