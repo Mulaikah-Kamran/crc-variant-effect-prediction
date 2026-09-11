@@ -45,26 +45,25 @@ Full method, including how proteins longer than ESM2's ~1,022-residue context wi
 
 ![Per-gene score distributions](results/figures/02_per_gene_distributions.png)
 
-**Tier B is not uniformly negative.** TP53, KRAS, FBXW7, and BRAF cluster strongly model-disfavored. PIK3CA and SMAD4 sit close to zero.
+Tier B splits into two groups: TP53, KRAS, FBXW7, and BRAF cluster strongly model-disfavored, while PIK3CA and SMAD4 sit close to zero.
 
 ![Tier B heterogeneity](results/figures/03_tier_b_heterogeneity.png)
 
-**Checking against known hotspots gives a mixed answer, not a clean validation.** KRAS's canonical hotspot codons (G12/G13/Q61) score less negative than the gene's other observed positions — the opposite of the naive expectation. BRAF's V600E does score more negative than BRAF's other positions, in the expected direction. PIK3CA shows essentially no separation between hotspot and non-hotspot positions.
+Checking against known mutation hotspots gives a mixed picture: BRAF's V600E scores more negative than the gene's other positions, matching expectation. KRAS's canonical hotspot codons (G12/G13/Q61) actually score less negative than the gene's other observed positions. PIK3CA shows no meaningful separation between hotspot and non-hotspot positions.
 
 ![Hotspot concordance](results/figures/04_hotspot_concordance.png)
 
-**A secondary ClinVar cross-check** (matching exact protein positions against germline pathogenic/benign classifications — a different biological context from somatic tumor mutations, discussed in the limitations) was only adequately powered for one gene, KRAS, where pathogenic- and benign-labeled variants had nearly identical median scores. Most of KRAS's ClinVar entries reflect a RASopathy developmental syndrome, not oncogenic function — a reasonable explanation for why a germline label wouldn't track a sequence-conservation score tuned toward cancer relevance.
+A secondary cross-check against ClinVar (matching exact protein positions against clinical variant classifications) was adequately powered for one gene, KRAS, where pathogenic- and benign-labeled variants scored nearly identically. Most of KRAS's matched ClinVar entries come from an unrelated developmental syndrome rather than oncogenic mutations, which is a reasonable explanation for the lack of separation.
 
-Full tables: [`results/tables/`](results/tables/).
+A classical baseline comparison against BLOSUM62 — a standard substitution matrix built from observed substitution frequencies across aligned protein families, which captures general evolutionary substitution patterns but no position-specific information about the particular protein a mutation falls in — checks how much of ESM2's signal is explained by that general substitution behavior alone. The overall relationship is weak-to-moderate (Spearman ρ = 0.29, n = 259) and varies by gene: BRAF correlates strongly with the classical baseline (ρ = 0.90, n = 8), most other genes more weakly.
 
-## What this doesn't show
+![ESM2 vs BLOSUM62](results/figures/05_blosum62_vs_esm2.png)
 
-- ESM2 wasn't trained on cancer data, and correctly flagging a well-known hotspot like BRAF V600E is closer to a sanity check than a discovery — that mutation is already one of the most experimentally characterized substitutions in oncology.
-- Tier A's mutation counts are small (3–10 unique variants per gene); anything found there is a lead, not a conclusion.
-- Raw scores aren't a single universal scale — PIK3CA's scores come from a local sequence window (see methodology) rather than its full protein, so cross-gene score comparisons are made cautiously, and per-gene rank is generally more meaningful than raw magnitude.
-- No wet-lab or clinical data confirms any of these predictions.
+Full tables: [`results/tables/`](results/tables/). Method details: [`docs/methodology.md`](docs/methodology.md).
 
-Full discussion: [`docs/limitations.md`](docs/limitations.md).
+## Scope
+
+This is a computational, sequence-based analysis — not a clinical or experimental study, and not a claim of diagnostic or predictive validity. Full discussion of scope and limitations: [`docs/limitations.md`](docs/limitations.md).
 
 ## Reproducing this
 
@@ -78,6 +77,7 @@ python src/05_primary_analysis.py      # -> results/tables/
 python src/06_hotspot_concordance.py   # -> results/tables/
 python src/07_clinvar_secondary.py     # -> results/tables/  (hits NCBI E-utilities, rate-limited)
 python src/08_generate_figures.py      # -> results/figures/
+python src/09_baseline_comparison.py   # -> results/tables/ + results/figures/ (BLOSUM62 vs ESM2)
 ```
 
 Tests: `pytest tests/`
@@ -90,7 +90,7 @@ data/raw/             unmodified API pulls (mutations, sequences)
 data/processed/       QC'd and deduplicated variant table, plus the full exclusion audit trail
 data/scored/          final ESM2-scored variant table
 results/tables/       per-gene summaries, hotspot and ClinVar checks
-results/figures/      the four figures above
+results/figures/      the five figures above
 docs/                 methodology, decision log, limitations
 tests/                unit tests for the parsing, QC, and windowing logic
 ```

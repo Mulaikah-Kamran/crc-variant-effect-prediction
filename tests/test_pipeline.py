@@ -14,6 +14,9 @@ from pipeline_utils import (
     get_window,
     tukey_hinges_iqr,
     ESM2_CONTEXT_LIMIT,
+    blosum62_score,
+    BLOSUM62,
+    _BLOSUM62_ORDER,
 )
 
 
@@ -157,3 +160,49 @@ def test_iqr_order_independent():
     a = tukey_hinges_iqr([5, 1, 3, 2, 4])
     b = tukey_hinges_iqr([1, 2, 3, 4, 5])
     assert a == b
+
+
+# ---- BLOSUM62 baseline ----
+
+def test_blosum62_known_diagonal_values():
+    # These self-substitution values are among the most widely and
+    # independently cited facts about BLOSUM62 - a strong sanity check
+    # that the matrix wasn't mistyped.
+    assert blosum62_score("W", "W") == 11
+    assert blosum62_score("C", "C") == 9
+    assert blosum62_score("H", "H") == 8
+    assert blosum62_score("P", "P") == 7
+    assert blosum62_score("A", "A") == 4
+
+
+def test_blosum62_known_offdiagonal_values():
+    assert blosum62_score("W", "F") == 1
+    assert blosum62_score("R", "K") == 2
+    assert blosum62_score("D", "E") == 2
+    assert blosum62_score("I", "L") == 2
+    assert blosum62_score("I", "V") == 3
+
+
+def test_blosum62_is_symmetric():
+    for a in _BLOSUM62_ORDER:
+        for b in _BLOSUM62_ORDER:
+            assert BLOSUM62[a][b] == BLOSUM62[b][a]
+
+
+def test_blosum62_full_matrix_no_missing_pairs():
+    for a in _BLOSUM62_ORDER:
+        for b in _BLOSUM62_ORDER:
+            assert BLOSUM62[a][b] is not None
+
+
+def test_blosum62_rejects_invalid_amino_acid():
+    import pytest
+    with pytest.raises(ValueError):
+        blosum62_score("X", "A")
+    with pytest.raises(ValueError):
+        blosum62_score("A", "*")
+
+
+def test_blosum62_covers_all_20_standard_amino_acids():
+    assert len(_BLOSUM62_ORDER) == 20
+    assert set(_BLOSUM62_ORDER) == set("ACDEFGHIKLMNPQRSTVWY")

@@ -1,0 +1,114 @@
+[
+  {
+    "gene": "ALDOB",
+    "tier": "A",
+    "n": 8,
+    "spearman_rho": 0.166013069377609,
+    "p_value": 0.6943974284492819,
+    "note": ""
+  },
+  {
+    "gene": "BRAF",
+    "tier": "B",
+    "n": 8,
+    "spearman_rho": 0.8961272244559315,
+    "p_value": 0.0025881096608650444,
+    "note": ""
+  },
+  {
+    "gene": "FBXL16",
+    "tier": "A",
+    "n": 3,
+    "spearman_rho": null,
+    "p_value": null,
+    "note": "n<5: correlation not reported as meaningful"
+  },
+  {
+    "gene": "FBXW7",
+    "tier": "B",
+    "n": 26,
+    "spearman_rho": 0.32520067510509937,
+    "p_value": 0.10500377589622409,
+    "note": ""
+  },
+  {
+    "gene": "IL1RN",
+    "tier": "A",
+    "n": 4,
+    "spearman_rho": null,
+    "p_value": null,
+    "note": "n<5: correlation not reported as meaningful"
+  },
+  {
+    "gene": "KRAS",
+    "tier": "B",
+    "n": 21,
+    "spearman_rho": 0.600369531441145,
+    "p_value": 0.00400743751401255,
+    "note": ""
+  },
+  {
+    "gene": "METTL27",
+    "tier": "A",
+    "n": 4,
+    "spearman_rho": null,
+    "p_value": null,
+    "note": "n<5: correlation not reported as meaningful"
+  },
+  {
+    "gene": "MSLN",
+    "tier": "A",
+    "n": 9,
+    "spearman_rho": 0.5152540399295447,
+    "p_value": 0.15571745276314652,
+    "note": ""
+  },
+  {
+    "gene": "PIK3CA",
+    "tier": "B",
+    "n": 51,
+    "spearman_rho": 0.34936960028750064,
+    "p_value": 0.011974923489206615,
+    "note": ""
+  },
+  {
+    "gene": "RAC3",
+    "tier": "A",
+    "n": 3,
+    "spearman_rho": null,
+    "p_value": null,
+    "note": "n<5: correlation not reported as meaningful"
+  },
+  {
+    "gene": "SLC38A11",
+    "tier": "A",
+    "n": 6,
+    "spearman_rho": -0.1471224715841249,
+    "p_value": 0.7809085271647663,
+    "note": ""
+  },
+  {
+    "gene": "SMAD4",
+    "tier": "B",
+    "n": 32,
+    "spearman_rho": 0.20492492924920527,
+    "p_value": 0.2605463222649364,
+    "note": ""
+  },
+  {
+    "gene": "TP53",
+    "tier": "B",
+    "n": 78,
+    "spearman_rho": 0.28409393943123135,
+    "p_value": 0.011711808893346333,
+    "note": ""
+  },
+  {
+    "gene": "WNT11",
+    "tier": "A",
+    "n": 6,
+    "spearman_rho": 0.44136741475237473,
+    "p_value": 0.3809392104771887,
+    "note": ""
+  }
+]

@@ -30,3 +30,9 @@ ESM2's positional embeddings cap effective context at 1,022 residues, confirmed 
 ## Dropping the percentile threshold
 
 An early plan defined "strongly model-disfavored" as, e.g., the bottom 10% of scores across the dataset. Dropped before implementation: a percentile is a statement about this dataset's shape, not a biological line, and it would silently shift if the panel ever grew or shrank. Fixed-rank callouts ("the 5 lowest-scoring variants in this gene") make the same point without implying a threshold that doesn't exist.
+
+## Adding the BLOSUM62 baseline
+
+The core ESM2 analysis, QC, hotspot check, and ClinVar cross-reference were finished and frozen before this was added. Reviewing the finished project against the question a computational biology reviewer would most likely ask — whether a 650-million-parameter model is providing anything a classical, non-learned substitution matrix wouldn't — surfaced a real gap: nothing in the project characterized ESM2's relationship to simple substitution chemistry. BLOSUM62 was added specifically to close that gap, using the frozen 259-variant dataset exactly as it stood, with no changes to the ESM2 scores, the gene panel, or any earlier conclusion.
+
+This is documented here rather than as a separate versioned release because that's what it is: one more piece of evidence in the same study, added because a genuine methodological question was identified before anything was presented externally — not a revision made after the fact in response to feedback.
