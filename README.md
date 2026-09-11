@@ -10,6 +10,8 @@ It turns out that "guess what belongs here" is a decent proxy for "is this posit
 
 This project scores real missense mutations from a public colorectal cancer cohort with ESM2 and asks whether that signal lines up with things that are already independently known — and, just as importantly, reports the cases where it doesn't.
 
+![Pipeline overview](results/figures/01_pipeline_overview.png)
+
 ## Data
 
 - **Mutations**: TCGA COADREAD (colon + rectal adenocarcinoma, Pan-Cancer Atlas), restricted to the colon-only sample subset (439 patients), pulled via the [cBioPortal API](https://www.cbioportal.org/api).
@@ -18,7 +20,7 @@ This project scores real missense mutations from a public colorectal cancer coho
   - **Tier B** — six genes independently established as recurrent CRC somatic drivers by the TCGA colorectal landmark study (Muzny et al., 2012): `TP53`, `KRAS`, `PIK3CA`, `FBXW7`, `BRAF`, `SMAD4`.
 - **Sequences**: canonical reviewed human entries from UniProt.
 
-Full provenance, including why these specific genes and not others (APC and TGFBR2 were considered and excluded — see below), is in [`docs/decision_log.md`](docs/decision_log.md).
+Full provenance, including why these specific genes and not others (APC and TGFBR2 were considered and excluded — their real mutation spectra are dominated by types this method can't score), is in [`docs/decision_log.md`](docs/decision_log.md).
 
 ## What ESM2 actually does here
 
