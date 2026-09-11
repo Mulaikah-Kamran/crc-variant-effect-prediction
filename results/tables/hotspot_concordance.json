@@ -1,0 +1,35 @@
+[
+  {
+    "gene": "KRAS",
+    "hotspot_positions": [
+      12,
+      13,
+      61
+    ],
+    "n_hotspot_variants_observed": 12,
+    "hotspot_median_score": -7.028351545333862,
+    "n_nonhotspot_variants": 9,
+    "nonhotspot_median_score": -8.333247184753418
+  },
+  {
+    "gene": "BRAF",
+    "hotspot_positions": [
+      600
+    ],
+    "n_hotspot_variants_observed": 1,
+    "hotspot_median_score": -10.011297225952148,
+    "n_nonhotspot_variants": 7,
+    "nonhotspot_median_score": -9.027566909790039
+  },
+  {
+    "gene": "PIK3CA",
+    "hotspot_positions": [
+      545,
+      1047
+    ],
+    "n_hotspot_variants_observed": 7,
+    "hotspot_median_score": -1.455284595489502,
+    "n_nonhotspot_variants": 44,
+    "nonhotspot_median_score": -1.4804673790931702
+  }
+]
